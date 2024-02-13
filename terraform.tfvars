@@ -1,0 +1,6 @@
+bucket_name            = "xldp.xgrid.co"
+cloudfront_oai_comment = "xldp.xgrid.co OAI"
+build_folder_path      = "build/"
+zone_id                = "Z04915193OVBRMG8HX327"
+domain_name            = "xldp.xgrid.co"
+aws_region             = "us-east-1"
