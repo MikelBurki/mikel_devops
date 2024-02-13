@@ -4,4 +4,9 @@ resource "aws_s3_bucket" "xldp_xgrid_co" {
   website {
     index_document = "index.html"
   }
+
+  tags = {
+    Environment = "Development",
+    name        = "Mikel"
+  }
 }

@@ -8,9 +8,9 @@ resource "aws_cloudfront_distribution" "xldp_xgrid_co" {
     }
   }
 
-  enabled = true
+  enabled             = true
   default_root_object = "index.html"
-  aliases = ["xldp.xgrid.co"]
+  aliases             = ["xldp.xgrid.co"]
 
   default_cache_behavior {
     allowed_methods  = ["GET", "HEAD", "OPTIONS"]
@@ -39,6 +39,7 @@ resource "aws_cloudfront_distribution" "xldp_xgrid_co" {
   }
 
   tags = {
-    Environment = "production"
+    Environment = "Development",
+    name        = "Mikel"
   }
 }
